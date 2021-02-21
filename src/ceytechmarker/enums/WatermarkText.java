@@ -10,9 +10,9 @@ package ceytechmarker.enums;
  * @author isuru
  */
 public enum WatermarkText {
-    CONFIDENTIAL("CONFIDENTIAL"), COPY("COPY"), DRAFT("DRAFT"), 
-    HIGHER_MANAGEMENT("HIGHER MANAGEMENT"), INTERNAL("INTERNAL"), 
-    CANCELLED("CANCELLED"), REJECTED("REJECTED"), OPEN("OPEN"), 
+    CONFIDENTIAL("CONFIDENTIAL"), SECRET("Secret"), DRAFT("DRAFT"), 
+    HIGHER_MANAGEMENT("HIGHER MANAGEMENT"), UNCLASSIFED("Unclassifed"), 
+    PRIVATE("Private"), REJECTED("REJECTED"), OPEN("OPEN"), 
     CUSTOM("CUSTOM");
     
     private String text;
